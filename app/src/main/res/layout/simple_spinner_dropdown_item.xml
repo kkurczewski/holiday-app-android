@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="@android:style/TextAppearance.Widget.TextView.SpinnerItem"
+    android:maxLines="1"
+    android:ellipsize="marquee"
+    android:padding="@dimen/spinner_dropdown_padding"
+    android:textSize="@dimen/search_activity_text_normal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent" />

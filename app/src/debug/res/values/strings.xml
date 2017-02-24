@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="placeholder_price" >1200 zł</string>
+    <string name="placeholder_desc">Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. In addition, determine the following focus points and movements.</string>
+    <string name="placeholder_persons">2 adult + 1 children</string>
+    <string name="placeholder_date">12.03.16 (7 days)</string>
+    <string name="placeholder_transport">Bus</string>
+    <string name="placeholder_meals">Breakfast</string>
+    <string name="placeholder_checkbox">Some option</string>
+
+    <array name="servers">
+        <item>http://server-address.com</item>
+        <item>http://192.168.0.101:8080/HolidayAppServer/</item>
+    </array>
+
+</resources>

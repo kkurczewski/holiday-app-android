@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="placeholder_price" />
+    <string name="placeholder_desc" />
+    <string name="placeholder_persons" />
+    <string name="placeholder_date" />
+    <string name="placeholder_transport" />
+    <string name="placeholder_meals" />
+    <string name="placeholder_checkbox" />
+
+</resources>

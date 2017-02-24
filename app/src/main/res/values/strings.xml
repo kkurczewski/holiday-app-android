@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="app_name">HolidayOfferApp</string>
+
+    <string name="title_activity_main">Holiday Offer App</string>
+    <string name="title_activity_test_recycler">TestRecycler</string>
+    <string name="title_activity_fragment_recycler_test">FragmentRecyclerTest</string>
+    <string name="title_notification">Holiday Offer App: New offer</string>
+    <string name="title_search_activity">Search offers</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="snack_action_back">back</string>
+    <string name="action_search">Search in</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+    <string name="price_label">Total price:</string>
+
+    <string name="retry">retry</string>
+    <string name="undo">undo</string>
+    <string name="empty_input">This field can\'t be empty!</string>
+    <string name="not_a_number_input">Input must be a number!</string>
+    <string name="connection_error">No internet connection</string>
+    <string name="network_error">An network error occurred</string>
+    <string name="server_error">An server error occurred</string>
+    <string name="load_error">Failed load resource</string>
+    <string name="empty_list_info">No offers</string>
+
+    <string name="airplane">Airplane</string>
+    <string name="bus">Bus</string>
+    <string name="ship">Ship</string>
+    <string name="train">Train</string>
+    <string name="other">Other</string>
+    <string name="spinner_not_chosen">Not chosen</string>
+
+    <string name="search_label_date">Start date (required)</string>
+    <string name="search_label_price">Maximum price (Required)</string>
+    <string name="search_label_persons">How many person</string>
+    <string name="search_label_meals">Meal option</string>
+    <string name="search_label_climate">Climate tags</string>
+    <string name="search_button">Search offers</string>
+
+    <string-array name="persons_count_spinner">
+        <item>@string/spinner_not_chosen</item>
+        <item>1 adult</item>
+        <item>2 adult</item>
+        <item>2 adult + 1 children</item>
+        <item>2 adult + 2 children</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="meals_spinner">
+        <item>@string/spinner_not_chosen</item>
+        <item>Breakfast only</item>
+        <item>Dinner only</item>
+        <item>All inclusive</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="climate_tags">
+        <item>Mountains</item>
+        <item>Sea</item>
+        <item>Forest</item>
+        <item>Lake</item>
+        <item>Snow</item>
+        <item>Tropical</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <plurals name="date_and_days">
+        <item quantity="one">%1$s (%2$d day)</item>
+        <item quantity="other">%1$s (%2$d days)</item>
+    </plurals>
+
+</resources>

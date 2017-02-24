@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="grid_icon_normal">30dp</dimen>
+    <dimen name="grid_icon_label_normal">17sp</dimen>
+
+    <dimen name="gallery_height">400dp</dimen>
+    <dimen name="details_width">620dp</dimen>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="grid_icon_normal">38dp</dimen>
+    <dimen name="grid_icon_label_normal">20sp</dimen>
+
+    <dimen name="price_label_normal">20sp</dimen>
+    <dimen name="price_value_normal">30sp</dimen>
+
+    <dimen name="country_city_label_normal">20sp</dimen>
+
+    <dimen name="description_normal">20sp</dimen>
+
+    <dimen name="gallery_height">360dp</dimen>
+    <dimen name="dots_radius">4dp</dimen>
+    <dimen name="details_width">530dp</dimen>
+
+    <dimen name="search_activity_label_normal">16sp</dimen>
+    <dimen name="search_activity_text_normal">20sp</dimen>
+    <dimen name="search_activity_check_box_width">220dp</dimen>
+    <dimen name="search_activity_margins">50dp</dimen>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+
+    <LinearLayout
+        android:id="@+id/details_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gallery_height">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/page_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:padding="8dp"
+                android:theme="@style/AppTheme.GalleryDots" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_anchor="@id/view_pager"
+                app:layout_anchorGravity="bottom|end"
+                app:srcCompat="@drawable/ic_map"
+                app:useCompatPadding="true" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <View style="@style/separator_style" />
+
+        <at.blogc.android.views.ExpandableTextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLines="6"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/placeholder_desc"
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="16sp"
+            app:animation_duration="500" />
+
+        <Button
+            android:id="@+id/show_more"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/show_more"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <View style="@style/separator_style" />
+
+        <GridLayout xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/basic_info_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:showIn="@layout/recycler_item">
+
+            <include layout="@layout/grid_icons" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_gravity="end|top"
+                android:layout_row="0"
+                android:layout_rowSpan="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/price_label"
+                    android:textSize="@dimen/price_label_normal" />
+
+                <TextView
+                    android:id="@+id/price_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/placeholder_price"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/price_value_normal" />
+
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
+
