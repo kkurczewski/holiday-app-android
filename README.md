@@ -3,7 +3,7 @@
 Application for searching holiday offers. Works with dedicated server which allows to cut off usage of mobile resources. For example, images before sending to app are scaled down to limit network data and CPU used by mobile (in process of scaling down).
 
 ## Demo
-!![demo.gif](/demo-ezgif.com.gif)
+![demo.gif](/demo-ezgif.com.gif)
 
 ## Server project
 
