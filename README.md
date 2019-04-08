@@ -28,7 +28,3 @@ Used libraries:
 * [ExpandableTextView](https://github.com/Blogcat/Android-ExpandableTextView)
 * [Betterpickers](https://github.com/code-troopers/android-betterpickers)
 * [ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
-
-## End note
-
-Project may not work/compile due the fact of cut off sensitive data like custom keys, private urls, etc. It's supposed to be more like read-only portfolio.
